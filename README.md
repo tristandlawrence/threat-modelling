@@ -10,14 +10,17 @@ It counts as both training and a workshop, as it outputs training for:
 It also outputs a content that can form the basis of a  document that captures security risks, mitigations and decisions that can be incorporated into design and operational documents.
 
 ## Agenda and Attendees
-The workshop consists of 3 phases accross a 90-minute period, and needs at least one security expert and one engineer who understands the problem/system. The workshop works better with a high-quality facilitator (from the security team or a BA) and up to  10 attendees. Non-technical staff including product or engineering managers often benefit. You can read more about the 'value' that different staff members in the Value section.
+The workshop generally consists of 3 phases accross a 90-minute period. While it needs at least one security expert and one engineer who understands the problem/system, the workshop works better with a facilitator (from the security team or a Business Analyst) and up to 10 attendees. Non-technical staff including product or engineering managers often benefit. You can read more about the 'value' that different staff members in the Value section.
 
 ## Content
 The primary parts of the workshop are
-1. 20 mins: An 'Architectural Description' where engineers present a diagram of their system, that is then annotated to and added to by the joint team to expose sensitive data, exposure points
-2. 50 mins: A 'Threat Modelling' activity where participants are given 'threat actor cards' to roleplay, and then think about how they would attack their system. There is a solo brainstorming part (20mins) where security staff support 1:many and then a group brainstorming part where all teams provide their most serious (or all) threats their threat actors have generated and share who they were (20mins). The most serious threats are then risk assessed (10-20mins if done unilaterally or by consultation)
-3. 20 mins: A 'control mitigation' activity, where the 'controls' that mitigate the most serious risks are enumerated and assessed for efficacy. Once this is done, the residual risk of 1 threat can be calculated.
-4. 5 mins:  A 'next steps' decision point - the facilitator or security team highlights if there is any risk or controls they believe must be implemented, or if more work is required before a decision can be made, and assigns next steps before the workshop wraps. Depending on your organisation's cybersecurity maturity, some tangible decisions to recommend that risks should be accepted or commitments from the team that they will mitigate risks are ideal but may be optimistic.
+1. 20 mins: An 'Architectural Description' where engineers pick one system and describe what the system is and what it does. Ideally, they should draw or present an architectural diagram (component, network or trust zone). Partipants annotate the diagram to highlight exposure points, sensitive data, vulnerabilities etc.
+2. 50 mins: A 'Threat Modelling' activity where participants are given 'threat actor cards' to roleplay how they would attack the system. It consists of
+    1. Solo threat brainstorming (20mins): participants write post its of what attacks they might try agains the system. Given they understand the system, they may be able to generate threats that will work, and this should be encouraged. Security staff may coach participants in how they might attack a system or reference STRIDE or another Threat Modelling framework to help coach participants.
+    2. Sharing and Prioritisation: Participants share which threat actor they got and their most serious threats with the group (10mins). The most serious threats are then risk assessed (10-20mins if done unilaterally or by consultation)
+4. 20 mins: A 'control mitigation' activity where participants identify 'controls' that mitigate the most serious risks are enumerated and assessed for efficacy. Once this is done, the facilitator can help the team recalculate the residual risk of the mitigated threat.
+5. 5 mins:  A 'next steps' decision point - where the team can validate
+   1. the facilitator or security team highlights if there is any risk or controls they believe must be implemented, or if more work is required before a decision can be made, and assigns next steps before the workshop wraps. Depending on your organisation's cybersecurity maturity, some tangible decisions to recommend that risks should be accepted or commitments from the team that they will mitigate risks are ideal but may be optimistic.
 
 ## Materials Required
 You will need
@@ -28,10 +31,10 @@ You will need
  - A way to generate controls (directly into the template)
  - A document or link that describes how your organisation assesses and manages risk
  - Optional: A scribe with a laptop who captures information into a document live as it is generated
-
+ - Optional: a written or digital survey on the workshop to send to participants to get their feedback on the content, facilitation and value so you can make sure you keep engagement high!
 
 ## Value
-Generally, the workshop is moderately intense for workload but generates high CSAT/NPS.
+Generally, the workshop is moderately intense, but no more intense than a normal cybersecurity assessment on a solution. However, it generates high CSAT/NPS, provides ancillary training benefit and teamwork/culture.
 
 In general:
 - Security teams note teams that undertake 'threat modelling' often proactively implement security improvements because they understand the value. It reverses the onus from Security teams to convince staff to implement controls, and enables them to support teams to manage risks they now understand.
